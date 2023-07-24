@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .QRbody{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #b5adad;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #000000;
+    box-shadow: 0 0 10px #000000;
+  }
+  img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  
+  }
+  p{
+    font-size: 15px;
+    color: lightslategray
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container{
+      width: 80%;
+    }
+  }
+    
+  
+  
